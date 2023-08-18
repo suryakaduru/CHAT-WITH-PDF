@@ -3,12 +3,18 @@
 
 Here is the link for the app:
 
-(https://chat-with-pdf-muxsqb3xxq8n5fqqjheyci.streamlit.app/)
+[link](https://chat-with-pdf-muxsqb3xxq8n5fqqjheyci.streamlit.app/)
 
 ## DEMO
   
-[streamlit-app-2023-08-18-11-08-31.webm](https://github.com/suryakaduru/CHAT-WITH-PDF/assets/99175643/bcc58cd4-e2d9-45b0-8c7b-44534005776b)
+[DEMO video](https://github.com/suryakaduru/CHAT-WITH-PDF/assets/99175643/bcc58cd4-e2d9-45b0-8c7b-44534005776b)
 
+
+## How it works
+
+The application reads the PDF and splits the text into smaller chunks that can be then fed into a LLM. It uses huggingface embeddings to create vector representations of the chunks. The application then finds the chunks that are semantically similar to the question that the user asked and feeds those chunks to the LLM to generate a response.
+
+The application uses Streamlit to create the GUI and Langchain to deal with the LLM.
 
 
 ## Dependencies and Installation
